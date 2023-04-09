@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#job-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.job-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.job-title {
+    margin-top: 0;
+}
+
+.job-description, .job-location {
+    margin: 0;
+}
+
+.apply-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
