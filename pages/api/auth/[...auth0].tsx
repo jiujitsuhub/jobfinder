@@ -7,7 +7,6 @@ export default handleAuth({
         authorizationParams: {
           audience: 'http:localhost:8080', // or AUTH0_AUDIENCE
           // Add the `offline_access` scope to also get a Refresh Token
-        //   scope: "protected_data" // or AUTH0_SCOPE
         }
       });
     } catch (error) {
